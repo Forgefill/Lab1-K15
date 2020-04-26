@@ -1,0 +1,21 @@
+#pragma once
+void AboutA(char*,char*);
+void Process(int, char*, char*);
+int Mstrlen(char*);
+int Mstrcmp(char*, char*);
+int Mstrncmp(char*, char*,int);
+char * Mstrchr(char *, int);
+char * Mstrcpy(char *, char *);
+char * Mstrncpy(char *, char *, int);
+char * Mstrcat(char *, char *);
+char * Mstrncat(char *, char *, int);
+char * Mstrstr(char *, char *);
+char * Mstrpbrk(char *, char *);
+int Mstrspn(char * , char * );
+int Mstrcspn(char *, char *);
+char * Mstrcpy_s(char *, int, char *);
+int Mfind_last_of(char*, char*);
+int Mfind_first_of(char*, char*);
+int Mfind_first_not_of(char*, char*);
+char* Mpop_back(char*str);
+int Mcompare(char*, char*);
